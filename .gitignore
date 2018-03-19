@@ -1,3 +1,4 @@
 .env
-/cert/crt.pem
-/cert/key.pem
+/cert
+/logs
+/node_modules

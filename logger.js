@@ -12,16 +12,12 @@ configure({
     },
     categories: {
         default: {
-            appenders: ['app', 'coinflip'],
+            appenders: [ 'coinflip' ],
             level: 'debug'
         }
     }
 });
 
-const app = getLogger('coinflip');
 const coinflip = getLogger('coinflip');
 
-module.exports = {
-    app,
-    coinflip
-};
+module.exports = coinflip;
